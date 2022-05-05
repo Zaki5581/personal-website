@@ -6,10 +6,14 @@
 
 h1 {
   color: rebeccapurple;
-  background-color: darkgreen;
+  background-color: #2a9bb8;
+  display: flex;
+  justify-content: center;
 }
 ul {
   list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 a {
   text-decoration: none;
@@ -17,6 +21,8 @@ a {
 .titles {
   color: red;
   border: 1px solid;
+  display: flex;
+  justify-content: center;
 }
 p {
   background-color: aqua;
@@ -31,4 +37,10 @@ img {
 }
 .images {
   border: 2px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.proj {
+  display: flex;
+  justify-content: space-around;
 }
