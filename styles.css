@@ -29,6 +29,7 @@ p {
 }
 .kursiv {
   font-family: cursive;
+  color: blue;
 }
 img {
   border: 2px solid red;
