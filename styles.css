@@ -5,8 +5,10 @@
 }
 
 h1 {
+  font-size: 5em;
+  font-family: "Water Brush", cursive;
   height: 250px;
-  color: rebeccapurple;
+  color: #f10924;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +29,11 @@ a {
 }
 button {
   width: 150px;
+  height: 40px;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
+  border: 2px solid white;
 }
 .titles {
   color: red;
