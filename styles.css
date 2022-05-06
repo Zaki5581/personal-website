@@ -11,7 +11,10 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
+header {
+  background-image: url(https://www1.wdr.de/nachrichten/rheinland/suedbruecke-koeln-100~_v-HDready.jpg);
+  background-size: cover;
+}
 ul {
   list-style: none;
   display: flex;
@@ -58,6 +61,7 @@ img {
 .icons {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   font-size: 3rem;
 }
 form {
@@ -68,9 +72,7 @@ form {
   display: flex;
   flex-direction: column;
 }
-#subbut {
-  margin: 10px auto;
-}
+
 footer {
   text-align: center;
 }
