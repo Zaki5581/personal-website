@@ -29,16 +29,18 @@ p {
 }
 .kursiv {
   font-family: cursive;
+  color: blue;
 }
 img {
   border: 2px solid red;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 }
 .images {
   border: 2px solid;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .proj {
   display: flex;
