@@ -26,6 +26,7 @@ a {
 }
 p {
   background-color: aqua;
+  color: red;
 }
 .kursiv {
   font-family: cursive;
