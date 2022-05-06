@@ -13,10 +13,15 @@ h1 {
 ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
 a {
   text-decoration: none;
+}
+button {
+  width: 150px;
 }
 .titles {
   color: red;
@@ -26,7 +31,6 @@ a {
 }
 p {
   background-color: aqua;
-  color: red;
 }
 .kursiv {
   font-family: cursive;
@@ -46,4 +50,14 @@ img {
 .proj {
   display: flex;
   justify-content: space-around;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+}
+textarea {
+  display: flex;
+  display: inline-block;
+  justify-content: center;
 }
