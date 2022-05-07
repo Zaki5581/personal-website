@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -12,10 +14,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 40px;
 }
 header {
   background-image: url(https://www1.wdr.de/nachrichten/rheinland/suedbruecke-koeln-100~_v-HDready.jpg);
   background-size: cover;
+  box-shadow: 0px 2px 8px #f9a0a0;
+  border-radius: 5px;
 }
 ul {
   list-style: none;
@@ -25,21 +30,29 @@ ul {
 }
 
 a {
+  font-family: "Water Brush", cursive;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #f10924;
+  background-color: transparent;
+  border: 0.2px dotted rgb(226, 234, 240);
+  border-radius: 7px;
   text-decoration: none;
-}
-button {
-  width: 150px;
-  height: 40px;
+  width: 130px;
+  height: 45px;
   display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-  border: 2px solid white;
+  padding: 5px 25px 10px 25px;
+  margin-bottom: 10px;
+  opacity: 0.7;
 }
+
 .titles {
-  color: red;
-  border: 1px solid;
+  font-size: 2.3rem;
+  color: #f10924;
+  border: 1px;
   display: flex;
   justify-content: center;
+  padding: 30px;
 }
 p {
   background-color: aqua;
@@ -62,6 +75,9 @@ img {
 .proj {
   display: flex;
   justify-content: space-around;
+}
+.anker {
+  color: black;
 }
 .icons {
   display: flex;
