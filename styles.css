@@ -15,10 +15,12 @@ h1 {
   justify-content: center;
   align-items: center;
   padding-left: 40px;
+  padding-top: -30px;
 }
 header {
-  background-image: url(https://www1.wdr.de/nachrichten/rheinland/suedbruecke-koeln-100~_v-HDready.jpg);
+  background-image: url(https://images.unsplash.com/photo-1647782826129-20a0693c0329?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
   background-size: cover;
+  height: 350px;
   box-shadow: 0px 2px 8px #f9a0a0;
   border-radius: 5px;
 }
@@ -30,39 +32,55 @@ ul {
 }
 
 a {
-  font-family: "Water Brush", cursive;
-  font-size: 1.5rem;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.4rem;
   font-weight: bolder;
   color: #f10924;
   background-color: transparent;
-  border: 0.2px dotted rgb(226, 234, 240);
   border-radius: 7px;
   text-decoration: none;
-  width: 130px;
+  width: 150px;
   height: 45px;
   display: flex;
-  padding: 5px 25px 10px 25px;
-  margin-bottom: 10px;
+  padding: 5px 25px 30px 25px;
+  margin-bottom: 0px;
   opacity: 0.7;
 }
 
 .titles {
+  border: 2px solid black;
+  font-family: "Water Brush", cursive;
   font-size: 2.3rem;
   color: #f10924;
-  border: 1px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 30px;
 }
+main {
+  background-image: url(https://images.unsplash.com/photo-1544515654-0bcf4d258f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 2px;
+  border-radius: 5px;
+}
 p {
-  background-color: aqua;
+  padding: 55px;
+  line-height: 36px;
+  color: rgb(237, 237, 237);
+  box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
+  border-radius: 7px;
+  background-color: rgba(33, 30, 30, 0.662);
+  text-align: center;
+  margin: 20px;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.5rem;
 }
-.kursiv {
-  font-family: cursive;
-  color: blue;
-}
+
 img {
   border: 2px solid red;
+  margin: 10px;
   width: 250px;
   height: 250px;
 }
@@ -72,28 +90,70 @@ img {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.proj {
-  display: flex;
-  justify-content: space-around;
+figcaption {
+  border-radius: 7px;
+  box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
+  background-color: rgba(33, 30, 30, 0.662);
+  color: #f10924;
+  text-align: center;
 }
+
 .anker {
-  color: black;
+  width: 200px;
+  margin: auto;
+  padding: 2px 2px 2px 24px;
+  color: rgb(237, 237, 237);
+}
+i {
+  color: silver;
+  padding: 10px 5px;
+  margin: auto;
+}
+.cv {
+  padding: 55px;
+  line-height: 36px;
+  color: rgb(237, 237, 237);
+  box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
+  border-radius: 7px;
+  background-color: rgba(33, 30, 30, 0.662);
+  text-align: center;
+  margin-top: 90px;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.5rem;
 }
 .icons {
+  height: 150px;
+  margin: 10px;
+  padding-bottom: 45px;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   font-size: 3rem;
 }
 form {
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 #kontakt {
   display: flex;
   flex-direction: column;
 }
+button {
+  margin: 10px auto;
+  width: 200px;
+  background-color: #f5ba0b4f;
+  color: rgb(237, 237, 237);
+  font-size: 1.2rem;
+  font-family: "Cairo", sans-serif;
+  border-radius: 7px;
+  box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
+}
 
 footer {
+  box-shadow: 0px -9px 3px 3px rgba(237, 209, 116, 0.822);
+  margin-top: 10px;
   text-align: center;
 }
