@@ -9,20 +9,31 @@
 h1 {
   font-size: 5em;
   font-family: "Water Brush", cursive;
-  height: 250px;
   color: #f10924;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 40px;
-  padding-top: -30px;
+  text-align: center;
+}
+h4 {
+  font-family: "Cairo", sans-serif;
+  font-size: 2.3rem;
+  font-style: italic;
+  color: #090909;
+  text-shadow: 0px 3px 2px rgba(152, 150, 150, 0.65);
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px;
 }
 header {
-  background-image: url(https://images.unsplash.com/photo-1647782826129-20a0693c0329?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+  background-image: url(https://images.unsplash.com/photo-1647777581428-5f122b143fc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGslQzMlQjZsbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   height: 350px;
-  box-shadow: 0px 2px 8px #f9a0a0;
+  box-shadow: 0px 7px 17px 6px #f9a0a0;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 ul {
   list-style: none;
@@ -30,34 +41,32 @@ ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+ol {
+  font-family: "Cairo", sans-serif;
+  color: rgb(237, 237, 237);
+  font-size: 1.5rem;
+}
 
 a {
   font-family: "Cairo", sans-serif;
   font-size: 1.4rem;
   font-weight: bolder;
-  color: #f10924;
-  background-color: transparent;
+  font-style: italic;
+  color: #090909;
+  background-color: rgba(255, 255, 255, 0.304);
   border-radius: 7px;
   text-decoration: none;
-  width: 150px;
-  height: 45px;
+  width: 120px;
+  height: 30px;
   display: flex;
-  padding: 5px 25px 30px 25px;
-  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   opacity: 0.7;
 }
 
-.titles {
-  border: 2px solid black;
-  font-family: "Water Brush", cursive;
-  font-size: 2.3rem;
-  color: #f10924;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 30px;
-}
 main {
+  margin: 0px;
   background-image: url(https://images.unsplash.com/photo-1544515654-0bcf4d258f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,13 +88,13 @@ p {
 }
 
 img {
-  border: 2px solid red;
   margin: 10px;
-  width: 250px;
+  width: 350px;
   height: 250px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
 }
 .images {
-  border: 2px solid;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -93,23 +102,23 @@ img {
 figcaption {
   border-radius: 7px;
   box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
+  background-color: #f5ba0b4f;
+  font-family: "Cairo", sans-serif;
+  font-weight: bolder;
+  color: rgb(237, 237, 237);
   background-color: rgba(33, 30, 30, 0.662);
-  color: #f10924;
   text-align: center;
 }
 
-.anker {
-  width: 200px;
-  margin: auto;
-  padding: 2px 2px 2px 24px;
-  color: rgb(237, 237, 237);
-}
 i {
-  color: silver;
-  padding: 10px 5px;
-  margin: auto;
+  color: rgb(161, 147, 147);
+  margin-bottom: 60px;
 }
-.cv {
+.anker {
+  background-color: transparent;
+}
+
+#cv {
   padding: 55px;
   line-height: 36px;
   color: rgb(237, 237, 237);
@@ -118,8 +127,6 @@ i {
   background-color: rgba(33, 30, 30, 0.662);
   text-align: center;
   margin-top: 90px;
-  font-family: "Cairo", sans-serif;
-  font-size: 1.5rem;
 }
 .icons {
   height: 150px;
@@ -145,9 +152,9 @@ button {
   margin: 10px auto;
   width: 200px;
   background-color: #f5ba0b4f;
+  font-family: "Cairo", sans-serif;
   color: rgb(237, 237, 237);
   font-size: 1.2rem;
-  font-family: "Cairo", sans-serif;
   border-radius: 7px;
   box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
 }
@@ -156,4 +163,11 @@ footer {
   box-shadow: 0px -9px 3px 3px rgba(237, 209, 116, 0.822);
   margin-top: 10px;
   text-align: center;
+}
+#projekte {
+  display: flex;
+  flex-direction: column;
+}
+.titles {
+  background-color: rgba(255, 255, 255, 0.247);
 }
