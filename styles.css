@@ -30,7 +30,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* height: 250px; */
+  height: 300px;
   box-shadow: 0px 7px 17px 6px #171414;
   border-radius: 5px;
   display: flex;
