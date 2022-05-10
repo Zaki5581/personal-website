@@ -1,6 +1,11 @@
 @import "header.css";
 @import "footer.css";
 
+:root {
+  --maincolor: #f10924;
+  --navcolor: #090909d3;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +14,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: rgb(237, 237, 237);
+  color: var(--pagecolor, yellow);
   font-size: 1.5rem;
 }
 
@@ -17,7 +22,7 @@ body {
 a {
   font-size: 110%;
   font-weight: bolder;
-  color: #090909d3;
+  color: var(--navcolor);
   text-decoration: none;
   font-style: oblique;
 }
@@ -66,13 +71,13 @@ ul {
 h2 {
   max-width: 425px;
   font-size: 2.5rem;
-  color: #090909;
+  color: var(--navcolor);
   text-shadow: 3px 3px 2px rgb(152, 150, 150);
   margin: 20px auto;
   text-align: center;
 }
 li {
-  color: #f10924;
+  color: var(--maincolor, red);
   font-size: 1.4rem;
   background-color: rgba(255, 255, 255, 0.354);
   border-radius: 7px;
@@ -102,6 +107,7 @@ img {
   box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
 }
 figcaption {
+  color: var(--navcolor);
   width: 200px;
   border-radius: 7px;
   box-shadow: 1px 1px 1px rgba(47, 43, 43, 0.662);
@@ -110,7 +116,7 @@ figcaption {
   margin: auto;
 }
 i {
-  color: black;
+  color: var(--navcolor);
 }
 form {
   border-radius: 7px;
@@ -132,7 +138,7 @@ button {
   box-shadow: 1px 1px 6px rgba(33, 30, 30, 0.662);
 }
 dt {
-  color: #090909;
+  color: var(--navcolor);
   font-weight: bolder;
   text-decoration: underline;
 }

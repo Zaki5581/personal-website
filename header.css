@@ -1,5 +1,5 @@
 header {
-  color: #f10924;
+  color: var(--maincolor, red);
   background-image: url(https://images.unsplash.com/photo-1647777581428-5f122b143fc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGslQzMlQjZsbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   background-repeat: no-repeat;
